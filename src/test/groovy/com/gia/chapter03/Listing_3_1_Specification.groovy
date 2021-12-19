@@ -5,7 +5,7 @@ import spock.lang.Specification
 class Listing_3_1_Specification extends Specification{
 
     def "What looks like a primitive type, isn't"(){
-        given: "An variable of type int is defined"
+        given: "A variable of type int is defined"
         int a = 1
 
         when: "it is inspected"
