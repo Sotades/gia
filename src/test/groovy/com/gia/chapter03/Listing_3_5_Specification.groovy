@@ -1,8 +1,10 @@
 package com.gia.chapter03
 
+import spock.lang.Ignore
 import spock.lang.Specification
 
 class Listing_3_5_Specification extends Specification{
+    @Ignore
     def "A miscellany of string operations"() {
         given:
         String greeting = 'Hello Groovy!'
@@ -21,6 +23,7 @@ class Listing_3_5_Specification extends Specification{
         greeting[6..11] == 'Groovy'
     }
 
+    @Ignore
     def "Implicit use of StringBuffer"() {
         given:
         def greeting = 'Hello'

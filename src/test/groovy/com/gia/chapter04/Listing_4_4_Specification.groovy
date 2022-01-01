@@ -1,9 +1,11 @@
 package com.gia.chapter04
 
+import spock.lang.Ignore
 import spock.lang.Specification
 
 
 class Listing_4_4_Specification extends Specification{
+    @Ignore
     def "Specifying lists"() {
         given:
         List myList = [1, 2, 3]

@@ -1,8 +1,10 @@
 package com.gia.chapter04
 
+import spock.lang.Ignore
 import spock.lang.Specification
 
 class Listing_4_5_Specification extends Specification{
+    @Ignore
     def "Accessing parts of a list with an overloaded subscript operator"() {
         given:
         def myList = ['a','b','c','d','e','f']

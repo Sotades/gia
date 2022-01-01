@@ -1,8 +1,10 @@
 package com.gia.chapter03
 
+import spock.lang.Ignore
 import spock.lang.Specification
 
 class Listing_3_11_Specification extends Specification{
+    @Ignore
     def "GDK methods on numbers"() {
         given: "I have a number"
         def store = ''
@@ -20,7 +22,7 @@ class Listing_3_11_Specification extends Specification{
         then: "I get the closure executed by number times"
         store == 'xxxxxxxxxxyyyyyyyyyy'
     }
-
+    @Ignore
     def "Walking up with loop variable"() {
 
         given:
@@ -34,7 +36,7 @@ class Listing_3_11_Specification extends Specification{
 
 
     }
-
+    @Ignore
     def "I think I also have a loop counter in 'times' "(){
         given:
         def store = ''
@@ -45,7 +47,7 @@ class Listing_3_11_Specification extends Specification{
         then: "I had a loop variable to work with"
         store == '0123456789'
     }
-
+    @Ignore
     def "Arse around with a range object"() {
 
         given: "a string object"

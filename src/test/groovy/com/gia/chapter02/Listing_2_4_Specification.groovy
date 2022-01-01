@@ -1,8 +1,10 @@
 package com.gia.chapter02
 
+import spock.lang.Ignore
 import spock.lang.Specification
 
 class Listing_2_4_Specification extends Specification{
+    @Ignore
     def "A Bean demonstration"() {
         given: "A Bean"
         def bookBean = new BookBean()

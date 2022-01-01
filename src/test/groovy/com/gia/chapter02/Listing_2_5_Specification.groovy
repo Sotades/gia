@@ -1,9 +1,11 @@
 package com.gia.chapter02
 
 import groovy.transform.Immutable
+import spock.lang.Ignore
 import spock.lang.Specification
 
 class Listing_2_5_Specification extends Specification{
+    @Ignore
     def "Defining an immutable FixedBean and exercising it"() {
 
         given: "An Immutable class is created"
@@ -17,6 +19,7 @@ class Listing_2_5_Specification extends Specification{
         thrown(ReadOnlyPropertyException)
     }
 
+    @Ignore
     def "Investigating what is in an unassigned array element"() {
 
         given:

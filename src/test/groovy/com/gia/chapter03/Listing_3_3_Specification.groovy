@@ -1,9 +1,11 @@
 package com.gia.chapter03
 
 import groovy.transform.Immutable
+import spock.lang.Ignore
 import spock.lang.Specification
 
 class Listing_3_3_Specification extends Specification{
+    @Ignore
     def "Overriding the plus and equals operators"() {
         given: "I Override the '+' and '==' operator"
 

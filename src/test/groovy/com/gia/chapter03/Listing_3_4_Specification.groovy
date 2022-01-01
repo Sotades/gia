@@ -1,10 +1,12 @@
 package com.gia.chapter03
 
+import spock.lang.Ignore
 import spock.lang.Specification
 
 import java.time.Year
 
 class Listing_3_4_Specification extends Specification{
+    @Ignore
     def "Working with GStrings"() {
         given:
         def me = 'Tarzan'
@@ -17,6 +19,7 @@ class Listing_3_4_Specification extends Specification{
         line == 'me Tarzan - you Jane'
     }
 
+    @Ignore
     def "Using extended dot syntax"() {
 
         given: "defining a date and a map"

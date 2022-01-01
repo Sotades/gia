@@ -1,10 +1,12 @@
 package com.gia.chapter03
 
+import spock.lang.Ignore
 import spock.lang.Specification
 
 import java.awt.Point
 
 class Listing_3_2_Specification extends Specification{
+    @Ignore
     def "Casting lists and maps to arbitrary classes"() {
         given: "Some Points"
         Point topLeft = new Point(0,0)  //classic
